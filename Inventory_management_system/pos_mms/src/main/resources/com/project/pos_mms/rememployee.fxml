@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="193.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project.pos_mms.Rememployeepop">
+    <children>
+        <Label layoutX="20.0" layoutY="41.0" prefHeight="19.0" prefWidth="137.0" text="Employee Name">
+            <font>
+                <Font name="Verdana Bold" size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="50.0" layoutY="183.0">
+            <font>
+                <Font name="Verdana Bold" size="15.0" />
+            </font>
+        </Label>
+
+        <Button fx:id="rememployee" layoutX="238.0" layoutY="101.0" mnemonicParsing="false" onAction="#removeemployee" prefHeight="26.0" prefWidth="125.0" style="-fx-background-color: #99B6EC; -fx-background-radius: 5;" text="Remove">
+            <font>
+                <Font name="Verdana Bold" size="13.0" />
+            </font>
+        </Button>
+        <TextField fx:id="employeename" layoutX="166.0" layoutY="38.0" prefHeight="26.0" prefWidth="406.0" />
+    </children>
+</AnchorPane>

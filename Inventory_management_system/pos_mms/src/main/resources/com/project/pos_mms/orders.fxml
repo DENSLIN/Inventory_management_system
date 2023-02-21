@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane depthTest="ENABLE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="258.0" prefWidth="600.0" style="-fx-background-color: #DDDDF4; -fx-background-radius: 10;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project.pos_mms.NopopupController">
+   <children>
+      <Label layoutX="28.0" layoutY="41.0" text="Item Name">
+         <font>
+            <Font name="Verdana Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="85.0" text="Quantity">
+         <font>
+            <Font name="Verdana Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="132.0" text="Price">
+         <font>
+            <Font name="Verdana Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="183.0">
+         <font>
+            <Font name="Verdana Bold" size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="orderadd" layoutX="238.0" layoutY="202.0" mnemonicParsing="false" onAction="#getandAdd" prefHeight="26.0" prefWidth="125.0" style="-fx-background-color: #99B6EC; -fx-background-radius: 5;" text="ADD">
+         <font>
+            <Font name="Verdana Bold" size="13.0" />
+         </font>
+      </Button>
+      <TextField fx:id="orderqty" layoutX="160.0" layoutY="82.0" prefHeight="26.0" prefWidth="156.0" />
+      <TextField fx:id="orderprc" layoutX="161.0" layoutY="129.0" prefHeight="26.0" prefWidth="406.0" />
+      <ChoiceBox fx:id="orderchoice" layoutX="161.0" layoutY="38.0" prefHeight="25.0" prefWidth="406.0" />
+      <Text layoutX="357.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Availability" wrappingWidth="86.0">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text fx:id="availinv" layoutX="456.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="34.0" />
+      <Button layoutX="522.0" layoutY="83.0" mnemonicParsing="false" onAction="#getit" text="Get" />
+   </children>
+</AnchorPane>

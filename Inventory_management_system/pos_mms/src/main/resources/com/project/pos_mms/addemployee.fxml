@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="310.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.project.pos_mms.Addemployeepop">
+    <children>
+        <Label layoutX="20.0" layoutY="41.0" prefHeight="19.0" prefWidth="137.0" text="Employee Name">
+            <font>
+                <Font name="Verdana Bold" size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="20.0" layoutY="86.0" prefHeight="19.0" prefWidth="83.0" text="Password">
+            <font>
+                <Font name="Verdana Bold" size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="20.0" layoutY="133.0" prefHeight="19.0" prefWidth="83.0" text="Privilege">
+            <font>
+                <Font name="Verdana Bold" size="15.0" />
+            </font>
+        </Label>
+        <Label layoutX="50.0" layoutY="183.0">
+            <font>
+                <Font name="Verdana Bold" size="15.0" />
+            </font>
+        </Label>
+
+        <Button fx:id="addemployee" layoutX="238.0" layoutY="202.0" mnemonicParsing="false" onAction="#addemployee" prefHeight="26.0" prefWidth="125.0" style="-fx-background-color: #99B6EC; -fx-background-radius: 5;" text="ADD">
+            <font>
+                <Font name="Verdana Bold" size="13.0" />
+            </font>
+        </Button>
+        <TextField fx:id="givenpass" layoutX="160.0" layoutY="82.0" prefHeight="26.0" prefWidth="406.0" />
+        <TextField fx:id="privilegegiven" layoutX="160.0" layoutY="129.0" prefHeight="26.0" prefWidth="406.0" />
+        <TextField fx:id="employeename" layoutX="160.0" layoutY="38.0" prefHeight="26.0" prefWidth="406.0" />
+    </children>
+</AnchorPane>
